@@ -1,7 +1,8 @@
 # typeScript + React18 + antd
 
 ```bash
-git clone https://github.com/creatliukun/vite-react-ts.git #1,拉去项目
+#1,拉取项目
+git clone https://github.com/creatliukun/vite-react-ts.git
 #2，安装包
 npm install
 #3, 运行项目
