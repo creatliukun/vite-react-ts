@@ -1,0 +1,9 @@
+$color: #fcf;
+body {
+  background: $color;
+  // user-select: none; //取消用户选中文字
+}
+
+img {
+  -webkit-user-drag: node; // 禁止图片拖动
+}
