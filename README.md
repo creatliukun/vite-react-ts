@@ -1,5 +1,19 @@
 # typeScript + React18 + antd
 
+下面是搭建的步骤，拉取项目的时候不用做这些，只需要
+
+```bash
+git clone https://github.com/creatliukun/vite-react-ts.git #1,拉去项目
+#2，安装包
+npm install
+#3, 运行项目
+npm run dev
+```
+
+其中`package.json`文件中` "dev": "vite --host --port 9420 --open",`
+|--host|--port 9420|--open|
+|项目运行后的域名地址|设置端口|自动打开网页|
+
 ## 安装 sass vite 中很方便，loader 这些都不用自己配置，只需要安装好即可使用
 
 ```bash

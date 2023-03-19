@@ -8,9 +8,12 @@ import 'reset-css' // 清除所有的默认样式
 import '@/assets/styles/global.scss'
 // 组件的样式
 import App from './App'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 )
