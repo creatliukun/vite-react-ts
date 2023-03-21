@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 function Comp2() {
-  return (
-    <div className="comp-color">
-      <p>Comp2</p>
-    </div>
-  );
+  return <div className="comp-color">Comp2</div>
 }
 
-export default Comp2;
+export default Comp2
