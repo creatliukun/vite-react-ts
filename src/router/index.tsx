@@ -1,9 +1,9 @@
 import Page5 from '@/views/pages/page5'
 import React, { lazy } from 'react'
 import { Navigate } from 'react-router-dom'
+import Login from '@/views/Login'
 
 // 封装路由懒加载
-const Login = lazy(() => import('@/views/Login'))
 const About = lazy(() => import('@/views/About'))
 const Home = lazy(() => import('@/views/Home'))
 const Page1 = lazy(() => import('@/views/pages/page1'))
@@ -73,14 +73,14 @@ const routes = [
         element: withLoadingComponent(<Page5 />),
       },
       {
-        path: '/login',
-        element: withLoadingComponent(<Login />),
-      },
-      {
         path: '/about',
         element: withLoadingComponent(<About />),
       },
     ],
+  },
+  {
+    path: '/login',
+    element: <Login />,
   },
   // 嵌套路由，结束-----
   // 路由重定向
