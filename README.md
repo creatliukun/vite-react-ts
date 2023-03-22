@@ -89,6 +89,14 @@ npm i less@2.7.1 -D
 
 现在看页面样式，虽然代码没有引入，但页面样式仍然存在
 
+#### react-thunk 异步解决方案
+
+市面上有`redux-saga`和 `redux-thunk`两种解决方案，`redux-thunk`相比较于`redux-saga`来说，体积小，灵活，但是需要自己手动抽取和封装，但是相对而言学习成本较低
+
+```bash
+npm i redux-thunk
+```
+
 #### 学习网站
 
 [学习网站哔哩哔哩](https://www.bilibili.com/video/BV1FV4y157Zx?p=14&spm_id_from=pageDriver&vd_source=2ab81c1d2fa80ec3faf277e61e27b863)
