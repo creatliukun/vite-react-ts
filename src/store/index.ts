@@ -7,12 +7,12 @@ import {
 import reduxThunk from 'redux-thunk'
 
 import ArrStatus from './ArrStatus/reducer'
-import NumStatus from './NumStatus/reducer'
+import HandleNumber from './NumStatus/reducer'
 
 // 组合各个模块
 const reducers = combineReducers({
   ArrStatus,
-  NumStatus,
+  HandleNumber,
 })
 // 创建数据仓库
 // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() 为了让浏览器正常使用redux-dev-tools插件

@@ -1,14 +1,14 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 // import store from '@/store'
-import NumStatus from '@/store/NumStatus'
+import HandleNumber from '@/store/NumStatus'
 
 function Page1() {
   // 修改仓库数据
   const disPatch = useDispatch()
   // 获取仓库数据
   const { num } = useSelector((state: RootState) => ({
-    num: state.NumStatus.num,
+    num: state.HandleNumber.num,
   }))
   const { sArr } = useSelector((state: RootState) => ({
     sArr: state.ArrStatus.sArr,
@@ -18,15 +18,8 @@ function Page1() {
     disPatch({ type: 'add2', val: 10 })
   }
   const addClickSync = () => {
-    // disPatch({ type: 'add1' })
-    // 异步的使用
-    // disPatch((dis: Function) => {
-    //   setTimeout(() => {
-    //     dis({ type: 'add1' })
-    //   }, 100)
-    // })
     // 异步的使用redux-thunk的优化
-    disPatch(NumStatus.asyncActions.asyncAdd1)
+    disPatch(HandleNumber.asyncActions.asyncAdd1)
   }
   const addClickPush = () => {
     disPatch({ type: 'sArrPush', val: 10 })

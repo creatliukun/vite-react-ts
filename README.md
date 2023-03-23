@@ -97,6 +97,16 @@ npm i less@2.7.1 -D
 npm i redux-thunk
 ```
 
+#### vscode 安装插件 `JSON to TS`
+
+将 json 格式的数据转出接口，三键`Shift + Ctrl + Alt + S`
+
+#### 登陆
+
+目前账号: qdtest1
+目前密码: 123456
+验证吗: 888888
+
 #### 学习网站
 
 [学习网站哔哩哔哩](https://www.bilibili.com/video/BV1FV4y157Zx?p=14&spm_id_from=pageDriver&vd_source=2ab81c1d2fa80ec3faf277e61e27b863)
